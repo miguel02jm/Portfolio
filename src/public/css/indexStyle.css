@@ -59,8 +59,8 @@ h1 {
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 37ch;
-    animation: typing 5s steps(37) infinite, blink .5s infinite step-end alternate;
+    width: 38ch;
+    animation: typing 5s steps(38) infinite, blink .5s infinite step-end alternate;
     overflow: hidden;
     line-height: 10%;
 }

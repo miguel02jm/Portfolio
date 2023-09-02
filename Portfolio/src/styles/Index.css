@@ -1,0 +1,240 @@
+.custom-container{
+    min-height: calc(100vh - 85px);  
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+}
+
+.gold-color{
+  color: #efb810;
+}
+
+.one-div {
+    position: relative;  
+    height: 350px;
+    width: 500px;
+    background-color: rgb(15, 15, 15);
+    transform-style: preserve-3d;
+    animation: rot 2s infinite ease;
+    border-radius: 20px;
+    box-shadow: 0 0 50px 0px ,inset 0 0 90px 0px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @keyframes rot {
+    0% {
+      transform: rotateX(-15deg) translateY(0px);
+    }
+  
+    50% {
+      transform: rotateX(-15deg) translateY(-10px);
+    }
+  
+    100% {
+      transform: rotateX(-15deg) translateY(0px);
+    }
+  }
+
+  .Twitter {
+    background: transparent;
+    position: relative;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(40, 144, 241);
+    border-radius: 25px;
+    outline: none;
+    overflow: hidden;
+    color: rgb(40, 144, 241);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+  }
+  
+  .Twitter span {
+    margin: 10px;
+  }
+  
+  .Twitter::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    width: 20em;
+    height: 20em;
+    left: -5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    z-index: -1;
+  }
+  
+  .Twitter:hover {
+    color: #fff;
+    border: 1px solid rgb(40, 144, 241);
+  }
+  
+  .Twitter:hover::before {
+    box-shadow: inset 0 0 0 10em rgb(40, 144, 241);
+  }
+
+  .Instagram {
+    background: transparent;
+    position: relative;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(249, 6, 192);
+    border-radius: 25px;
+    outline: none;
+    overflow: hidden;
+    color: rgb(249, 6, 192);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+  }
+  
+  .Instagram span {
+    margin: 10px;
+  }
+  
+  .Instagram::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    width: 20em;
+    height: 20em;
+    left: -5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    z-index: -1;
+  }
+  
+  .Instagram:hover {
+    color: #fff;
+    border: 1px solid rgb(249, 6, 192);
+  }
+  
+  .Instagram:hover::before {
+    box-shadow: inset 0 0 0 10em rgb(249, 6, 192);
+  }
+
+  .Github {
+    background: transparent;
+    position: relative;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    outline: none;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+  }
+  
+  .Github span {
+    margin: 10px;
+  }
+  
+  .Github::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    width: 20em;
+    height: 20em;
+    left: -5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    z-index: -1;
+  }
+  
+  .Github:hover {
+    color: #fff;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .Github:hover::before {
+    box-shadow: inset 0 0 0 10em rgb(0, 0, 0);
+  }
+
+  .LinkedIn {
+    background: transparent;
+    position: relative;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(0, 14, 171);
+    border-radius: 25px;
+    outline: none;
+    overflow: hidden;
+    color: rgb(0, 14, 171);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+  }
+  
+  .LinkedIn span {
+    margin: 10px;
+  }
+  
+  .LinkedIn::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    width: 20em;
+    height: 20em;
+    left: -5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    z-index: -1;
+  }
+  
+  .LinkedIn:hover {
+    color: #fff;
+    border: 1px solid rgb(0, 14, 171);
+  }
+  
+  .LinkedIn:hover::before {
+    box-shadow: inset 0 0 0 10em rgb(0, 14, 171);
+  }
