@@ -13,6 +13,11 @@ function Navbar() {
             <div className="collapse navbar-collapse">
               <ul className="navbar-nav ms-auto">
                 <li>
+                  <a className="nav-link" href="#aboutMe">
+                    <h5>SOBRE MÍ</h5>
+                  </a>
+                </li>
+                <li>
                   <a className="nav-link" href="#skills">
                     <h5>HABILIDADES</h5>
                   </a>

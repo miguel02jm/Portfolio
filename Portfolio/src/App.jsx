@@ -1,8 +1,9 @@
 import React from "react";
-import Index from "./Index";
-import Contact from "./Contact";
-import Skills from "./Skills";
-import Projects from "./Projects";
+import Index from "./components/Index";
+import AboutMe from "./components/AboutMe";
+import Contact from "./components/Contact";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 import Navbar from "./components/navbar";
 import "./styles/app.css";
 
@@ -11,6 +12,7 @@ function App() {
     <div className="custom-font">
       <Navbar></Navbar>
       <Index></Index>
+      <AboutMe></AboutMe>
       <Skills></Skills>
       <Projects></Projects>
       <Contact></Contact>

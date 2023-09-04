@@ -1,9 +1,5 @@
 .custom-container{
-    min-height: calc(100vh - 85px);  
-    font-family: 'Nunito', sans-serif;
     overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
-    margin: 0; /* Elimina el margen predeterminado del cuerpo */
-    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
 }
 
 .gold-color{
@@ -18,7 +14,6 @@
     transform-style: preserve-3d;
     animation: rot 2s infinite ease;
     border-radius: 20px;
-    box-shadow: 0 0 50px 0px ,inset 0 0 90px 0px;
     transition: 1s;
     display: flex;
     justify-content: center;
