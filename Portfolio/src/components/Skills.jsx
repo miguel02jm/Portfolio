@@ -12,7 +12,7 @@ import django_icon from "../img/django.png";
 
 const Skills = () => {
   return (
-    <div className="container vh-100 pt-5" id="skills">
+    <div className="custom-container3 vh-100 pt-5" id="skills">
       <div className="container pt-5">
         <div className="container d-flex justify-content-center align-items-center">
           <h1>
@@ -20,108 +20,111 @@ const Skills = () => {
             <div className="title mt-2"></div>
           </h1>
         </div>
-        <div className="row d-flex justify-content-between align-items-center mt-5">
-          <div className="col">
-            <ul className="list-unstyled">
-              <div className="container text-center">
-                <h5 className="my-3">
-                  <strong>Frontend</strong>
-                </h5>
+        <div className="album mt-5">
+          <div className="container">
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+              <div class="col">
+                <ul className="list-unstyled">
+                  <div className="container text-center">
+                    <h5 className="my-3">
+                      <strong>Frontend</strong>
+                    </h5>
+                  </div>
+                  <li>
+                    <span>HTML</span>
+                  </li>
+                  <li>
+                    <span>CSS (Bootstrap)</span>
+                  </li>
+                  <li>
+                    <span>JavaScript (React)</span>
+                  </li>
+                  <div className="container text-center">
+                    <h5 className="my-3">
+                      <strong>Backend</strong>
+                    </h5>
+                  </div>
+                  <li>
+                    <span>PHP (Laravel)</span>
+                  </li>
+                  <li>
+                    <span>JavaScript (NodeJS - ExpressJS)</span>
+                  </li>
+                  <li>
+                    <span>Python (Django)</span>
+                  </li>
+                  <div className="container text-center">
+                    <h5 className="my-3">
+                      <strong>Lenguajes - Herramientas</strong>
+                    </h5>
+                  </div>
+                  <li>
+                    <span>C++</span>
+                  </li>
+                  <li>
+                    <span>SQL (MySQL) y NoSQL (MongoDB)</span>
+                  </li>
+                  <li>
+                    <span>Git</span>
+                  </li>
+                </ul>
               </div>
-              <li>
-                <span className="ability-title">HTML</span>
-              </li>
-              <li>
-                <span className="ability-title">CSS (Bootstrap)</span>
-              </li>
-              <li>
-                <span className="ability-title">JavaScript (React)</span>
-              </li>
-              <div className="container text-center">
-                <h5 className="my-3">
-                  <strong>Backend</strong>
-                </h5>
+
+              <div className="col">
+                <div className="container d-flex justify-content-center align-items-center">
+                  <div className="col">
+                    <img
+                      className="me-3 mb-3"
+                      src={html_icon}
+                      style={{ width: "100px" }}
+                    />
+                    <img
+                      className="me-3 mb-3"
+                      src={css_icon}
+                      style={{ width: "100px" }}
+                    />
+                    <img
+                      className="mb-3"
+                      src={js_icon}
+                      style={{ width: "100px" }}
+                    />
+                  </div>
+                  <div className="col">
+                    <img
+                      className="me-3 mb-3"
+                      src={react_icon}
+                      style={{ width: "100px" }}
+                    />
+                    <img
+                      className="me-3 mb-3"
+                      src={mysql_icon}
+                      style={{ width: "100px" }}
+                    />
+                    <img
+                      className="mb-3"
+                      src={mongo_icon}
+                      style={{ width: "100px" }}
+                    />
+                  </div>
+                  <div className="col">
+                    <img
+                      className="me-3 mb-3"
+                      src={laravel_icon}
+                      style={{ width: "100px" }}
+                    />
+                    <img
+                      className="me-3 mb-3"
+                      src={node_icon}
+                      style={{ width: "100px" }}
+                    />
+                    <img
+                      className="mb-3"
+                      src={django_icon}
+                      style={{ width: "100px" }}
+                    />
+                  </div>
+                </div>
               </div>
-              <li>
-                <span className="ability-title">
-                  PHP (Laravel - CodeIgniter)
-                </span>
-              </li>
-              <li>
-                <span className="ability-title">
-                  JavaScript (NodeJS - ExpressJS)
-                </span>
-              </li>
-              <li>
-                <span className="ability-title">Python (Django)</span>
-              </li>
-              <div className="container text-center">
-                <h5 className="my-3">
-                  <strong>Lenguajes - Herramientas</strong>
-                </h5>
-              </div>
-              <li>
-                <span className="ability-title">C++</span>
-              </li>
-              <li>
-                <span className="ability-title">SQL y NoSQL</span>
-              </li>
-              <li>
-                <span className="ability-title">Git</span>
-              </li>
-            </ul>
-          </div>
-          <div className="col d-flex justify-content-center align-items-center">
-            <div className="container">
-              <img
-                className="me-3 mb-3"
-                src={html_icon}
-                style={{ width: "128px" }}
-              />
-              <img
-                className="me-3 mb-3"
-                src={css_icon}
-                style={{ width: "128px" }}
-              />
-              <img
-                className="me-3 mb-3"
-                src={js_icon}
-                style={{ width: "128px" }}
-              />
-            </div>
-            <div className="container">
-              <img
-                className="me-3 mb-3"
-                src={react_icon}
-                style={{ width: "128px" }}
-              />
-              <img
-                className="me-3 mb-3"
-                src={mysql_icon}
-                style={{ width: "128px" }}
-              />
-              <img
-                className="me-3 mb-3"
-                src={mongo_icon}
-                style={{ width: "128px" }}
-              />
-            </div>
-            <div className="container">
-              <img
-                className="me-3 mb-3"
-                src={laravel_icon}
-                style={{ width: "128px" }}
-              />
-              <img
-                className="me-3 mb-3"
-                src={node_icon}
-                style={{ width: "128px" }}
-              />
-              <img
-                className="me-3 mb-3"
-                src={django_icon}
-                style={{ width: "128px" }}
-              />
             </div>
           </div>
         </div>

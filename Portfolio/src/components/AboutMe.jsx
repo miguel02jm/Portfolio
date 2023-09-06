@@ -12,15 +12,15 @@ const AboutMe = () => {
             <div className="title mt-2"></div>
           </h1>
         </div>
-        <div className="row d-flex justify-content-between align-items-center mt-5">
-          <div className="col ps-5 pb-5">
+        <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3 mt-5">
+          <div className="col">
             <img
               className="img-custom"
               src={jaen}
-              style={{ width: "450px", border: "4px solid #efb810" }}
+              style={{ maxWidth: "100%", border: "4px solid #efb810" }}
             ></img>
           </div>
-          <div className="col d-flex justify-content-center align-items-center">
+          <div className="col">
             <div className="container">
               <p>¿Quién soy? ¿A qué me dedico?</p>
               <p>
