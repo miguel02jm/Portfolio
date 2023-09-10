@@ -8,7 +8,6 @@ import mysql_icon from "../img/mysql.png";
 import mongo_icon from "../img/mongodb.png";
 import node_icon from "../img/nodejs.png";
 import laravel_icon from "../img/Laravel.png";
-import django_icon from "../img/django.png";
 
 const Skills = () => {
   return (
@@ -49,9 +48,6 @@ const Skills = () => {
                   </li>
                   <li>
                     <span>JavaScript (NodeJS - ExpressJS)</span>
-                  </li>
-                  <li>
-                    <span>Python (Django)</span>
                   </li>
                   <div className="container text-center">
                     <h5 className="my-3">
@@ -115,11 +111,6 @@ const Skills = () => {
                     <img
                       className="me-3 mb-3"
                       src={node_icon}
-                      style={{ width: "100px" }}
-                    />
-                    <img
-                      className="mb-3"
-                      src={django_icon}
                       style={{ width: "100px" }}
                     />
                   </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Index.css";
+import "../styles/SocialMedia.css";
 import fotoperfil from "../img/Perfil.jpeg";
 
 function Index() {
