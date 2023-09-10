@@ -1,0 +1,4 @@
+.custom-container2{
+    background-color: rgb(238,238,238);
+    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+}

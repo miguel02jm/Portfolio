@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="custom-container4" id="contact">
       <div className="container d-flex justify-content-center align-items-center py-5">
         <h1 className="text-white">
-          <strong>CONTACTOS DE MIGUEL</strong>
+          <strong>CONTACTO</strong>
           <div className="title2 mt-2"></div>
         </h1>
       </div>

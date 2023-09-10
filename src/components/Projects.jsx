@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="container pt-5">
         <div className="container d-flex justify-content-center align-items-center">
           <h1>
-            <strong>PROYECTOS DE MIGUEL</strong>
+            <strong>PROYECTOS</strong>
             <div className="title mt-2"></div>
           </h1>
         </div>
