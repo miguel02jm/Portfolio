@@ -27,7 +27,7 @@ function Index() {
                 <span className="d-none d-sm-inline">Twitter</span>
               </a>
               <a
-                href="https://www.instagram.com/tu_perfil_de_instagram"
+                href="https://www.instagram.com/miguel02jm"
                 className="Instagram me-2"
               >
                 <i className="fab fa-instagram fa-2x icon"></i>
