@@ -10,7 +10,7 @@ function Index() {
       id="index"
     >
       <div className="custom-container">
-        <div className="row">
+        <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3">
           <div className="col flex-column d-flex justify-content-center align-items-center">
             <div className="container d-flex justify-content-center align-items-center pt-5">
               <h1 className="display-4 me-4">Desarrollador</h1>
@@ -18,8 +18,8 @@ function Index() {
             </div>
             <p className="text-center pt-5">
               Hola! Mi nombre es Miguel Ángel Jaén y soy desarrollador web
-              Full-Stack. Actualmente resido en Jaén, España. 📍 Echa un vistazo
-              a mi portfolio!
+              Full-Stack, viviendo en Jaén, España. 📍 ¡Echa un vistazo a mi
+              portfolio!
             </p>
             <div className="container d-flex justify-content-center align-items-center py-3">
               <a href="https://twitter.com/Miguel02jm" className="Twitter me-2">
@@ -51,7 +51,7 @@ function Index() {
             <div className="one-div my-2">
               <img
                 src={fotoperfil}
-                style={{ width: "100%", height: "100%", borderRadius: "20px" }}
+                style={{ width: "100%", borderRadius: "20px" }}
               />
             </div>
           </div>

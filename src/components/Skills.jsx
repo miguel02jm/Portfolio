@@ -11,7 +11,7 @@ import laravel_icon from "../img/Laravel.png";
 
 const Skills = () => {
   return (
-    <div className="custom-container3 vh-100 pt-5" id="skills">
+    <div className="custom-container2 pt-5" id="skills">
       <div className="container pt-5">
         <div className="container d-flex justify-content-center align-items-center">
           <h1>
@@ -22,7 +22,7 @@ const Skills = () => {
         <div className="album mt-5">
           <div className="container">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
-              <div class="col">
+              <div className="col">
                 <ul className="list-unstyled">
                   <div className="container text-center">
                     <h5 className="my-3">

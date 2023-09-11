@@ -1,4 +1,12 @@
-.custom-container3{
+.custom-container2{
     background-color: rgb(238,238,238);
-    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
 }
+
+.card{
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
