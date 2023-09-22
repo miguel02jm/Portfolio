@@ -1,3 +1,10 @@
 [
-  
-]
+    {
+      "title": "Clima360",
+      "technologies": "React | Bootstrap",
+      "description_es": "Web frontend para consultar los datos meteorológicos alrededor del mundo. Para ello hago uso de la API OpenWeatherMap con el método fetch de JS.",
+      "description_en": "Frontend web application to retrieve weather data worldwide. Fetches data from the OpenWeatherMap API.",
+      "link": "https://clima360.netlify.app/",
+      "img": "./src/img/Clima360.png"
+    }
+  ]

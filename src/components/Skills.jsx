@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "../styles/Skills.css";
 import react_icon from "../img/React.png";
 import html_icon from "../img/html-5.png";
@@ -8,14 +9,16 @@ import mysql_icon from "../img/mysql.png";
 import mongo_icon from "../img/mongodb.png";
 import node_icon from "../img/nodejs.png";
 import laravel_icon from "../img/Laravel.png";
+import flutter_icon from "../img/flutter.png";
 
 const Skills = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <div className="custom-container2 pt-5" id="skills">
       <div className="container pt-5">
         <div className="container d-flex justify-content-center align-items-center">
           <h1>
-            <strong>HABILIDADES</strong>
+            <strong>{t("sections.skills")}</strong>
             <div className="title mt-2"></div>
           </h1>
         </div>
@@ -49,19 +52,16 @@ const Skills = () => {
                   <li>
                     <span>JavaScript (NodeJS - ExpressJS)</span>
                   </li>
+                  <li>
+                    <span>SQL (MySQL) - NoSQL (MongoDB)</span>
+                  </li>
                   <div className="container text-center">
                     <h5 className="my-3">
-                      <strong>Lenguajes - Herramientas</strong>
+                      <strong>{t("skills.mobile")}</strong>
                     </h5>
                   </div>
                   <li>
-                    <span>C++</span>
-                  </li>
-                  <li>
-                    <span>SQL (MySQL) y NoSQL (MongoDB)</span>
-                  </li>
-                  <li>
-                    <span>Git</span>
+                    <span>Dart (Flutter)</span>
                   </li>
                 </ul>
               </div>
@@ -111,6 +111,11 @@ const Skills = () => {
                     <img
                       className="me-3 mb-3"
                       src={node_icon}
+                      style={{ width: "100px" }}
+                    />
+                    <img
+                      className="me-3 mb-3"
+                      src={flutter_icon}
                       style={{ width: "100px" }}
                     />
                   </div>

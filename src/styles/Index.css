@@ -25,3 +25,14 @@
       transform: rotateX(-15deg) translateY(0px);
     }
   }
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 10s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

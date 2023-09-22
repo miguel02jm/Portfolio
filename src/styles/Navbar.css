@@ -27,3 +27,8 @@
 .nav-link:hover::before {
     transform: scaleX(1);
 }
+
+.dropdown-item.selectable {
+    cursor: pointer;
+  }
+  
