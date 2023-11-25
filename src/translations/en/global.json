@@ -8,12 +8,12 @@
     },
     "index": {
     "title": "FULL-STACK DEVELOPER",
-    "description": "Hi! My name is Miguel Ángel Jaén, and I am a Full-Stack web developer also venturing into mobile development. Currently, I live in Jaén, Spain. 📍 Take a look at my portfolio!"
+    "description": "Hi! My name is Miguel Ángel Jaén, and I am a web and mobile developer. Currently, I live in Jaén, Spain. 📍 Take a look at my portfolio!"
     },
     "aboutMe": {
     "title": "WHO AM I? WHAT DO I DO?",
-    "paragraph1": "My name is Miguel Ángel Jaén. I was born in Jaén, a city in the south of Spain in 2002, where I still live today. In 2020, I started my career in the field of computer science and programming by beginning my degree in Computer Engineering in my city. I am currently continuing these studies, now in the 4th year, specifically in the branch of Information Technologies with a focus on Intelligent Information Processing.",
-    "paragraph2": "In addition to my ongoing studies, I strive to learn new technologies on my own (Currently focusing on React for the Frontend, NodeJS for backend, and Flutter for mobile development). That's why I balance my studies with self-directed learning, putting this knowledge into practice by working on my own personal projects. You can take a look at them later on.",
+    "paragraph1": "My name is Miguel Ángel Jaén. I was born in Jaén, a city in the south of Spain in 2002, where I still live today. In 2020, I started my career in the field of computer science and programming by beginning my degree in Computer Engineering in my city. I am currently continuing these studies, now in the 4th year, specifically in the branch of Information Technologies with a focus on Intelligent Information Processing. Additionally, I am undergoing an external internship at Xauen CyberScience SL.",
+    "paragraph2": "In addition to my ongoing studies, I strive to learn new technologies on my own, especially focused on web development, mobile applications, and Artificial Intelligence. That's why I balance my studies with self-directed learning, putting this knowledge into practice by working on my own personal projects. You can take a look at them later on.",
     "paragraph3": "In conclusion, I define myself as a passionate software developer, with a strong team spirit. Despite not having professional experience yet, I seek to learn new concepts every day and implement them into the products I develop independently. This way, I create attractive and functional digital solutions, always aiming to deliver unique experiences."
     },
     "skills": {

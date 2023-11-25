@@ -14,15 +14,6 @@ const Contact = () => {
       </div>
       <div className="container d-flex justify-content-center align-items-center py-3">
         <a
-          href="https://twitter.com/Miguel02jm"
-          className="Twitter me-2"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-twitter fa-2x icon"></i>
-          <span className="d-none d-sm-inline">Twitter</span>
-        </a>
-        <a
           href="https://www.instagram.com/miguel02jm"
           className="Instagram me-2"
           target="_blank"

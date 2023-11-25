@@ -8,7 +8,7 @@ import js_icon from "../img/js.png";
 import mysql_icon from "../img/mysql.png";
 import mongo_icon from "../img/mongodb.png";
 import node_icon from "../img/nodejs.png";
-import laravel_icon from "../img/Laravel.png";
+import python_icon from "../img/python.png";
 import flutter_icon from "../img/flutter.png";
 
 const Skills = () => {
@@ -28,7 +28,7 @@ const Skills = () => {
               <div className="col">
                 <ul className="list-unstyled">
                   <div className="container text-center">
-                    <h5 className="my-3">
+                    <h5 className="mt-3 mb-1">
                       <strong>Frontend</strong>
                     </h5>
                   </div>
@@ -42,21 +42,21 @@ const Skills = () => {
                     <span>JavaScript (React)</span>
                   </li>
                   <div className="container text-center">
-                    <h5 className="my-3">
+                    <h5 className="mt-3 mb-1">
                       <strong>Backend</strong>
                     </h5>
                   </div>
                   <li>
-                    <span>PHP (Laravel)</span>
+                    <span>JavaScript (NodeJS - ExpressJS)</span>
                   </li>
                   <li>
-                    <span>JavaScript (NodeJS - ExpressJS)</span>
+                    <span>Python (Flask)</span>
                   </li>
                   <li>
                     <span>SQL (MySQL) - NoSQL (MongoDB)</span>
                   </li>
                   <div className="container text-center">
-                    <h5 className="my-3">
+                    <h5 className="mt-3 mb-1">
                       <strong>{t("skills.mobile")}</strong>
                     </h5>
                   </div>
@@ -105,7 +105,7 @@ const Skills = () => {
                   <div className="col">
                     <img
                       className="me-3 mb-3"
-                      src={laravel_icon}
+                      src={python_icon}
                       style={{ width: "100px" }}
                     />
                     <img
