@@ -7,7 +7,7 @@ import css_icon from "../img/css-3.png";
 import js_icon from "../img/js.png";
 import mysql_icon from "../img/mysql.png";
 import mongo_icon from "../img/mongodb.png";
-import node_icon from "../img/nodejs.png";
+import django_icon from "../img/Django.png";
 import python_icon from "../img/python.png";
 import flutter_icon from "../img/flutter.png";
 
@@ -47,10 +47,7 @@ const Skills = () => {
                     </h5>
                   </div>
                   <li>
-                    <span>JavaScript (NodeJS - ExpressJS)</span>
-                  </li>
-                  <li>
-                    <span>Python (Flask)</span>
+                    <span>Python (Django)</span>
                   </li>
                   <li>
                     <span>SQL (MySQL) - NoSQL (MongoDB)</span>
@@ -110,7 +107,7 @@ const Skills = () => {
                     />
                     <img
                       className="me-3 mb-3"
-                      src={node_icon}
+                      src={django_icon}
                       style={{ width: "100px" }}
                     />
                     <img
